@@ -1,0 +1,84 @@
+1. Core technologies: dependency injection, events, resources, i18n, validation, data binding, type conversion, SpEL, AOP.
+
+2. The Spring Framework is an open-source framework for building enterprise Java applications. Spring aims to simplify the complex and cumbersome enterprise Java application development process by offering a framework that includes technologies such as Aspect-oriented programming (AOP), Dependency injection (DI), Plain Old Java Object (POJO).
+
+3. a. Pre-defined Templates
+   b. Loose Coupling
+   c. Easy and Simple to Test
+   d. Non-invasive
+   e. Fast Development
+
+4. Core Features of Spring Framework
+
+    IoC (Inversion of Control) Container
+    Support for aspect-oriented programing
+    Data access framework
+    Transaction management framework
+    Spring MVC framework
+    Spring web service
+    Spring test frameworks
+    Core container
+
+5. The Spring Framework consists of features organized into about 20 modules. These modules are grouped into Core Container, Data Access/Integration, Web, AOP (Aspect Oriented Programming), Instrumentation, and Test.
+
+6. A Spring configuration file is an XML file that contains the classes information. It describes how those classes are configured as well as introduced to each other. The XML configuration files, however, are verbose and cleaner.
+
+7.  IoC container
+    Data access framework
+    Spring MVC framework
+    Transaction management
+    Spring Web Service
+    JDBC abstraction layer
+
+8.  xml-based configuration, when you describe configuration in xml file
+    java-based configuration, when configuration is Java class, marked with specific annotations
+    groovy-based configuration, when configuration is file with Groovy code
+
+9.  Spring IoC Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, manages their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application. It gets the information about the objects from a configuration file(XML) or Java Code or Java Annotations and Java POJO class. These objects are called Beans. Since the Controlling of Java objects and their lifecycle is not done by the developers, hence the name Inversion Of Control. 
+
+10. Dependency Injection is a fundamental aspect of the Spring framework, through which the Spring container “injects” objects into other objects or “dependencies”. Simply put, this allows for loose coupling of components and moves the responsibility of managing components onto the container.
+
+11. 1. Go to jetbrains download page, select the latest version (on the writing date of this guide is the 2019.1.1) and install it using NNF (next, next and finish).
+    2. Go to jetbrains download page, select the latest version (on the writing date of this guide is the 2019.1.1) and install it using NNF (next, next and finish).
+    3. Access: https://start.spring.io, and fill the fields
+    4. Click Generate Project to download the project zip file. Extract it to a directory of your choice, go back to IntelliJ IDEA and select Import Project. 
+    5. Navigate to project’s directory and select the pom.xml file. You’ll see a window that is responsible for importing the Maven project
+    6. Select the project to import and click next.
+    7. In IntelliJ IDEA’s initial screen, select Create New Project, located on the left side tab and select Maven, on the right side, select the JDK version and click next. 
+    8. In the next screen specify the GroupId, ArtifactId and the Version and click next
+    9. With the project created, configure pom.xml.
+    10. Click Import Changes for Maven refresh all project dependencies.
+ 
+
+13. Whitelabel error could be because the files are not in the same folder. After moving the files to the same folder, the error gets resolved.
+
+14. Most of the web application frameworks provide easy ways to localize the application based on user locale settings. Spring also follows the pattern and provides extensive support for internationalization (i18n) through the use of Spring interceptors, Locale Resolvers and Resource Bundles for different locales.
+
+15. While the BeanFactory provides basic functionality for managing and manipulating beans, often in a programmatic way, the ApplicationContext provides extra functionality like MessageSource, Access to resources, Event propagation to beans, Loading of multiple (hierarchical) contexts etc. BeanFactory loads beans on-demand, while ApplicationContext loads all beans at startup. Thus, BeanFactory is lightweight as compared to ApplicationContext.
+
+16. The difference are that Autowired and Qualifier are the spring annotation while Resource is the standard java annotation. Also, @Resource only supports for fields and setter injection while @Autowired supports fields, setter, constructors and multi-argument methods injection.
+
+SECTION B:
+1 d
+2 a
+3 b
+4 a
+5 b
+6 a
+7 a
+8 a
+9 a
+10 d
+11 b
+12 a
+13 b
+14 b
+15 d
+16 c
+17 a
+18 b
+19 c
+20 d
+
+
+
